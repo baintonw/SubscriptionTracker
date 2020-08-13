@@ -57,5 +57,18 @@ ul {
 }
 
 footer {
-  background-color: whitesmoke;
+  background-color: inherit;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 0rem 4rem 0rem 0rem;
+
+  font-size: 1.614rem;
+  text-align: right;
+  
+  // height: 10vh;
+}
+
+.copy {
+  align-self: flex-end;
 }

@@ -80,7 +80,7 @@ With this regard their currents turn awry
 And lose the name of action.
       
       </div>
-    <footer className="footer"></footer>
+    <footer className="footer"><p className="copy">&copy;Will Bainton 2020</p></footer>
     </div>
   );
 }
