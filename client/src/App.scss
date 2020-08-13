@@ -11,8 +11,25 @@ ul {
   list-style: none;
 }
 
+a,
+a:link,
+a:visited,
+a:hover {
+  // list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  color: rgb(99, 99, 99);
+}
+
+//landing page
 .logo {
+  box-sizing: border-box;
   align-self: flex-start;
+
+  font-size: 3.4rem;
 }
 
 .header {
@@ -26,8 +43,7 @@ ul {
   align-items: baseline;
   box-sizing: border-box;
 
-  // margin: 2rem;
-  padding: 2rem;
+  border: 1px solid black;
 }
 
 .nav-bar {
@@ -37,24 +53,12 @@ ul {
   padding: 1rem;
   // border: 1px solid black;
 
-  font-size: 1.4rem;
+  font-size: 2.4rem;
 
   width: 20%;
 }
 
-.content {
-  padding: 2rem;
-  background-color: whitesmoke;
-  margin: 0 auto;
-  max-width: 35rem;
-  font-size: 1.6rem;
-  line-height: 1.6;
 
-  height: 60%;
-  overflow: auto;
-  transform: translateY(25%);
-
-}
 
 footer {
   background-color: inherit;
@@ -63,7 +67,7 @@ footer {
   width: 100vw;
   padding: 0rem 4rem 0rem 0rem;
 
-  font-size: 1.614rem;
+  font-size: 1.214rem;
   text-align: right;
   
   // height: 10vh;
@@ -71,4 +75,5 @@ footer {
 
 .copy {
   align-self: flex-end;
+  margin-right: 1.6rem;
 }

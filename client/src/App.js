@@ -1,18 +1,22 @@
 import React from 'react';
 import './App.scss';
 
+//Components
+import Subscriptions from './Subscriptions'
+
 function App() {
   return (
     <div className="App">
       <header className="header">
         <h2 className="logo">Subscript</h2>
         <ul className="nav-bar">
-          <a><li className="nav-link">About</li></a>
-          <a><li className="nav-link">Info</li></a>
-          <a><li className="nav-link">Contact</li></a>
+          <a href="#"><li className="nav-link">About</li></a>
+          <a href="#"><li className="nav-link">Info</li></a>
+          <a href="#"><li className="nav-link">Contact</li></a>
         </ul>
       </header>
-      <div className="content">
+      <Subscriptions></Subscriptions>
+      {/* <div className="content">
 To be, or not to be, that is the question:
 Whether 'tis nobler in the mind to suffer
 The slings and arrows of outrageous fortune,
@@ -79,7 +83,7 @@ And enterprises of great pitch and moment
 With this regard their currents turn awry
 And lose the name of action.
       
-      </div>
+      </div> */}
     <footer className="footer"><p className="copy">&copy;Will Bainton 2020</p></footer>
     </div>
   );
